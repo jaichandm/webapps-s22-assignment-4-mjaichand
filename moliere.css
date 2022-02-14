@@ -1,19 +1,19 @@
 .speech {
     font-family: 'Courier New', Courier, monospace;
-    font-size: larger;
+    font-size: medium;
     color: black;
 }
 
 .direction {
     font-family: 'Times New Roman', Times, serif;
     font-size: large;
-    color: rgb(12, 54, 31);
-    background-color: rgb(147, 192, 209);
+    color: darkblue;
+    background-color: rgb(216, 227, 231);
 }
 
 .name{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: medium;
+    font-size: larger;
     color: rgb(21, 4, 37);
     background-color: aquamarine;
 }
@@ -24,18 +24,22 @@
     text-shadow: 2px, 2px, 5px, rgb(48, 209, 155);
 }
 
-dorimene.name{
+.dorimene{
     font-style: italic;
     color: red;
 }
 
-dorante.name{
+.dorante{
     font-style: italic;
     color: blueviolet;
 }
 
-monsieur_jourdain.name{
+.monsieur_jourdain{
     font-style: italic;
     color:green;
 }
 
+.lackey{
+    font-style: italic;
+    color: darkmagenta;
+}

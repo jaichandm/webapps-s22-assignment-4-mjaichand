@@ -1,0 +1,41 @@
+.speech {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+    color: black;
+}
+
+.direction {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    color: rgb(12, 54, 31);
+    background-color: rgb(147, 192, 209);
+}
+
+.name{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    color: rgb(21, 4, 37);
+    background-color: aquamarine;
+}
+
+.direction:hover{
+    background-color:rgb(14, 99, 71);
+    color: rgb(213, 217, 221);
+    text-shadow: 2px, 2px, 5px, rgb(48, 209, 155);
+}
+
+dorimene.name{
+    font-style: italic;
+    color: red;
+}
+
+dorante.name{
+    font-style: italic;
+    color: blueviolet;
+}
+
+monsieur_jourdain.name{
+    font-style: italic;
+    color:green;
+}
+

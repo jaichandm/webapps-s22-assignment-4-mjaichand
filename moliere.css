@@ -102,4 +102,67 @@ a:active {
     text-shadow:3px 3px 6px green;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     box-shadow: 10px 5px 5px tomato;
+}
+
+ul.navbar-horizontal {
+    /* remove these */
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  
+  }
+  
+ul.navbar-horizontal li {
+    float:center;/* line up horizontally */
+    color:#000;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    text-align: center;
+    background-color:blueviolet;
+}
+  
+ul.navbar-horizontal a {
+    display:block;
+    padding:8px
+}
+  
+  /* on hover change the link color*/
+ul.navbar-horizontal a:hover {  
+    background-color: #555;
+    color:white;
+  }
+
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+  .arrow {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+  }
+  
+  .right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+  }
+  
+  .left {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+  }
+  
+  .up {
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+  }
+  
+  .down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
   }

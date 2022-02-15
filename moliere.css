@@ -43,3 +43,57 @@
     font-style: italic;
     color: darkmagenta;
 }
+
+table { 
+    border: dashed 3px;
+    overflow: auto;
+    font-size: large;
+    text-align: center;
+    border-collapse: separate;
+}
+table.collapsing { 
+    border: solid 3px;
+    border-collapse: collapse;
+    outline: solid 2px rgb(54, 13, 13);
+}
+td, th {
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+    font-size: medium;
+    border: solid 1px;
+    text-align: center;
+    color: indigo;
+}
+tr {
+    background-color:rgb(137, 211, 134) ;
+}
+tr:nth-child(even) {
+    background-color: #c4b1b1;
+}
+
+a:link {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+}
+  
+a:visited {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+}
+  
+a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+}
+  
+a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}

@@ -114,9 +114,6 @@ ul.navbar-horizontal {
 ul.navbar-horizontal li {
     float:left;/* line up horizontally */
     color:#000;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
     text-align: center;
     background-color:blueviolet;
 }
